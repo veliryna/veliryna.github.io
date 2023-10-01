@@ -4,7 +4,13 @@ The objective of this project is creating your own profile page by using GraphQL
 
 ## Hosting
 
+https://veliryna.github.io/
+
 ## Information displayed
+
+- Some of your personal information
+- Audit Statistics
+- Projects and XP Statistics
 
 ## Audit
 
