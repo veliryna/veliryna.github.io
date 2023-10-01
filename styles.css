@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+#login{
+    text-align: center;
+    margin:auto;
+    margin-top: 10%;
+    width: 40%;
+    height: 40%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.btnlogin{
+    margin-top: 5%;
+    border: none;
+    background-color: transparent;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+    color: #2E2E2E;
+    font-weight: 500;
+    border-radius: 30px;
+    padding: 18px 47px;
+    background: linear-gradient(90deg, #ffed95 15.1%, #faf730 85.42%);
+}
+.btnlogin:hover{
+    background: linear-gradient(90deg, #fffc2d 15.1%, #facb30 85.42%);
+}
+#profile{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin:auto;
+    color: #ffffff;
+}
+#logout{
+    margin-top: 10px;
+}
+#container1 {
+    height: 500px;
+}
+#container2 {
+    height: 600px;
+}

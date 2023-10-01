@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>GraphQL</title>
+</head>
+<body>
+    <form id="login">
+        <h1>Log In To See Your Profile Page</h1>
+
+        <label for="username">Username:</label><br>
+        <input type="text" id="username" required><br>
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" required><br>
+
+        <p id="failed-login" style="color: rgb(222, 217, 251); font-weight: 700; font-style: italic; font-family: Verdana, Geneva, Tahoma, sans-serif;"></p>
+        <button class="btnlogin" type="submit">Login</button>
+    </form>
+
+    <div id="profile"></div>
+    <div id="graph1"></div>
+    <div id="graph2"></div>
+
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/modules/export-data.js"></script>
+    <script src="https://code.highcharts.com/modules/accessibility.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
